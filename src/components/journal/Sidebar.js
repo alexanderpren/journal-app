@@ -1,6 +1,6 @@
 import {JournalEntries} from "./JournalEntries"
 
-const Sidebar = () => {
+export const Sidebar = () => {
 	return (
 		<aside className="journal__sidebar">
 			<div className="journal__sidebar-navbar">
@@ -19,4 +19,4 @@ const Sidebar = () => {
 	);
 };
 
-export default Sidebar;
+
